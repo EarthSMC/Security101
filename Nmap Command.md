@@ -11,7 +11,7 @@
 | Custom TCP Scan        | sudo nmap --scanflags URGACKPSHRSTSYNFIN <IP target> |
 | Spoofed Source IP      | sudo nmap -S SPOOFED_IP <IP target> |
 | Spoofed MAC Address    | --spoof-mac SPOOFED_MAC |
-| Decoy Scan    | nmap -D DECOY_IP,ME <IP target> |
+| Decoy Scan    | nmap -D DECOY_IP,ME <IP target>  |
 | Idle (Zombie) Scan    | sudo nmap -sI ZOMBIE_IP <IP target> |
 | Fragment IP data into 8 bytes    | -f |
 | Fragment IP data into 16 bytes    | -ff |
