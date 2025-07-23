@@ -15,7 +15,9 @@
 | Idle (Zombie) Scan    | sudo nmap -sI ZOMBIE_IP <IP target> |
 | Fragment IP data into 8 bytes    | -f |
 | Fragment IP data into 16 bytes    | -ff |
-| --reason    | explains how Nmap made its conclusion |
+| --source-port PORT_NUM    | 	specify source port number |
+| --data-length NUM    | -ff |
+| --reason    | append random data to reach given length |
 | -v    | verbose |
 | -vv    | very verbose |
 | -d    | debugging |
